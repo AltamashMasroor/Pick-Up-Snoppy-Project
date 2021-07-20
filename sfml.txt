@@ -1,0 +1,11 @@
+compile:
+g++ Source.cpp  -o main -LC:/dev/lib -lsfml-system -lsfml-window -lsfml-graphics -lsfml-audio
+
+Run:
+./main
+
+sfml setup:
+sudo apt-get install libsfml-dev
+
+g++ setup:
+sudo apt install g++
